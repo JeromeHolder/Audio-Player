@@ -1,0 +1,105 @@
+.player {
+    left: 50%;
+    position: fixed;
+    bottom: 10%;
+    text-align: center;
+    transform: translate(-50%, -10%)
+}
+
+.mediastyle {
+    margin-left: 5vw;
+    margin-right: 5vw;
+    border: 1px solid black;
+}
+
+.audioControl{
+    width: 4vw;
+    height: 4vw;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+.audioControl:hover, .detailsPlay:hover{
+    transform: scale(1.2);
+    transition: all .3s ease-in-out;
+}
+
+.audioControl:focus, .detailsPlay:focus{
+    outline: none;
+}
+
+.list-group{
+    margin-top: 2%;
+    opacity: .7;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+body{
+    background: linear-gradient(to bottom right, rgba(65, 68, 62), rgba(102, 189, 199) 100%) no-repeat center center fixed;
+    height: 100%;
+}
+
+.container{
+    margin-top: 2%;
+    background-image: url('/albums.jpg');
+    height: 90vh;
+    padding: 0%;
+    border: 1px solid orange;
+}
+
+.container-overlay{
+    background-color: black;
+    opacity: .6;
+    height: 90vh;
+    width: 100%;
+    z-index: -1;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.sub-container{
+    color: white;
+    height: 90vh;
+    opacity: 1;
+    z-index: 1;
+    position: relative;
+}
+
+.mainMargins {
+    margin-left: 4rem;
+    margin-right: 4rem;
+    margin-top: 5rem; 
+}
+
+.detailList {
+    margin: 1rem;
+    margin-left: 3rem;
+    padding-bottom: 1rem;
+}
+
+.detailsPlay{
+    height: 7vh;
+    width: 7vw;
+}
+
+.albumpic{
+    border-radius: 50%;
+    border: 2px solid #CB5F3E;
+    max-height: 30vh;
+    max-width: 30vw;
+}
+
+.orangeText{
+    color:#CB5F3E;
+}
+
+.listTitle{
+    font-size: 1.5rem;
+}
+
+.listTitle:hover {
+    text-decoration: none;
+}
+
